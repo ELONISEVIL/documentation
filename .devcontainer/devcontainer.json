@@ -1,0 +1,53 @@
+## Opening a Pull Request
+
+To contribute to this project, you'll need to open a pull request (PR). Follow these steps to submit your changes:
+
+1. **Fork the Repository**: Create a personal copy of this repository by forking it. This will allow you to make changes independently of the original repository.
+
+2. **Clone Your Fork**: Clone your fork to your local machine using:
+    
+sh
+    git clone https://github.com/YOUR-USERNAME/YOUR-FORK.git
+
+    Replace ELONISEVIL and DOCS-PIECES-APP with your GitHub username and fork name.
+
+3. **Create a New Branch**: Navigate to your repository folder and create a new branch:
+    
+sh
+    cd YOUR-FORK
+    git checkout -b your-branch-name
+
+
+4. **Make Your Changes**: Edit files, add new files, and make your changes. For example, you might update the README.md file.
+
+5. **Commit Your Changes**: Commit your changes with a descriptive message:
+    
+sh
+    git add .
+    git commit -m "Add a description of your changes"
+
+
+6. **Push Your Changes**: Push your branch to your fork:
+    
+sh
+    git push origin your-branch-name
+
+
+7. **Open a Pull Request**: Go to the original repository on GitHub, and you'll see a prompt to open a pull request from your branch. Click on "Compare & pull request".
+
+8. **Fill Out the PR Form**: 
+    - **Add a Title**: Provide a brief title for your pull request.
+    - **Add a Description**: Describe the changes you made and why they are important.
+    - **Allow Edits by Maintainers**: Check this box if you’re open to suggestions and edits by project maintainers.
+
+9. **Submit Your Pull Request**: Click "Create pull request" to submit.
+
+## Notes
+
+- Make sure to review and follow the [contributing guidelines](CONTRIBUTING.md) of this repository.
+- If this is your first time opening a pull request, take some time to read the [project’s instructions for getting support](SUPPORT.md) and review the [contributing guidelines](CONTRIBUTING.md).
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
